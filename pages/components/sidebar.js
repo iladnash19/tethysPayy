@@ -15,7 +15,7 @@ const Sidebar = () => {
     return (
         <div className="md:w-3/12 w-5/12 h-full shadow-md">
             <div className=" border-b py-3 mt-1 flex justify-around ">
-                <p className="text-xl  font-semibold">UNIPAY</p>
+                <p className="text-xl  font-semibold">CHICK-EARN</p>
                 <p>|</p>
                 
 
@@ -54,27 +54,27 @@ const Sidebar = () => {
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <SocialIcon network="twitter" style={{ height: 35, width: 35 }} />
-                            <a className=" font-semibold " href='https://twitter.com/UniPayAVAX'>Twitter</a>
+                            <a className=" font-semibold " href='https://twitter.com/chickEarn'>Twitter</a>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <SocialIcon network="telegram" style={{ height: 35, width: 35 }} />
-                            <a className=" font-semibold "  href='https://t.me/UniPayAVAX'>Telegram</a>
+                            <a className=" font-semibold "  href='https://t.me/ChickEarn'>Telegram</a>
                         </div>
                     </div>
 
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                              <SocialIcon network="discord" style={{ height: 35, width: 35 }} />
-                            <a href='https://discord.gg/MGeFBNdf' className=" font-semibold " >Discord</a>
+                            <a href='https://discord.gg/JM9EuYRbHn' className=" font-semibold " >Discord</a>
                         </div>
                     </div>
 
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                              <SocialIcon  style={{ height: 35, width: 35 }} />
-                            <a href='https://unipay.space/' className=" font-semibold " >Website</a>
+                            <a href='https://chick-earn.space/' className=" font-semibold " >Website</a>
                         </div>
                     </div>
 
