@@ -32,13 +32,13 @@ const Sidebar = () => {
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <ClearAllIcon className="text-gray-300" />
-                            <a href='https://dexscreener.com/avalanche/0xae6ce0ebf0a0104f3d6db74dd7da89f50f1b6082' className=" font-semibold  " >Dextools</a>
+                            <a href='https://dexscreener.com/bsc/0x1f88c2f8d1693c508111fad7346a1aa7c36cae22' className=" font-semibold  " >Dexscreen</a>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <ArrowUpwardIcon className="text-gray-300" />
-                            <p className=" font-semibold  " >Trader Joe</p>
+                            <p className=" font-semibold  " >Pancakeswap</p>
                         </div>
                     </div>
                     <div className="">
@@ -54,27 +54,27 @@ const Sidebar = () => {
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <SocialIcon network="twitter" style={{ height: 35, width: 35 }} />
-                            <a className=" font-semibold " href='https://twitter.com/chickEarn'>Twitter</a>
+                            <a className=" font-semibold " href='https://twitter.com/officialcatking'>Twitter</a>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <SocialIcon network="telegram" style={{ height: 35, width: 35 }} />
-                            <a className=" font-semibold "  href='https://t.me/ChickEarn'>Telegram</a>
+                            <a className=" font-semibold "  href='https://t.me/CatKingOfficialBSC'>Telegram</a>
                         </div>
                     </div>
 
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                              <SocialIcon network="discord" style={{ height: 35, width: 35 }} />
-                            <a href='https://discord.gg/JM9EuYRbHn' className=" font-semibold " >Discord</a>
+                            <a href='' className=" font-semibold " >Discord</a>
                         </div>
                     </div>
 
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                              <SocialIcon  style={{ height: 35, width: 35 }} />
-                            <a href='https://chick-earn.space/' className=" font-semibold " >Website</a>
+                            <a href='https://catking.space/' className=" font-semibold " >Website</a>
                         </div>
                     </div>
 
