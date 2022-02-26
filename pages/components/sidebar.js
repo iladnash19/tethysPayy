@@ -15,7 +15,7 @@ const Sidebar = () => {
     return (
         <div className="md:w-3/12 w-5/12 h-full shadow-md">
             <div className=" border-b py-3 mt-1 flex justify-around ">
-                <p className="text-xl  font-semibold">CatKing</p>
+                <p className="text-xl  font-semibold">Nekocoin</p>
                 <p>|</p>
                 
 
@@ -32,7 +32,7 @@ const Sidebar = () => {
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <ClearAllIcon className="text-gray-300" />
-                            <a href='https://poocoin.app/tokens/0xa6e94f95fc4027d820e2fb12ec2593468a9ed8a3' className=" font-semibold  " >Poocoin</a>
+                            <a href='https://poocoin.app/tokens/0x43ce64a4fba3c30c0164e935b0095862a67dc0c9' className=" font-semibold  " >Poocoin</a>
                         </div>
                     </div>
                     <div className="">
@@ -54,13 +54,13 @@ const Sidebar = () => {
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <SocialIcon network="twitter" style={{ height: 35, width: 35 }} />
-                            <a className=" font-semibold " href='https://twitter.com/officialcatking'>Twitter</a>
+                            <a className=" font-semibold " href='https://twitter.com/nekocoinbsc'>Twitter</a>
                         </div>
                     </div>
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                             <SocialIcon network="telegram" style={{ height: 35, width: 35 }} />
-                            <a className=" font-semibold "  href='https://t.me/CatKingOfficialBSC'>Telegram</a>
+                            <a className=" font-semibold "  href='https://t.me/nekocoinbsc'>Telegram</a>
                         </div>
                     </div>
 
@@ -74,7 +74,7 @@ const Sidebar = () => {
                     <div className="">
                         <div className="flex p-3 text-gray-700  space-x-4 0 hover:bg-gray-50 hover:text-blue-600  cursor-pointer  ">
                              <SocialIcon  style={{ height: 35, width: 35 }} />
-                            <a href='https://catking.space/' className=" font-semibold " >Website</a>
+                            <a href='https://nekobsc.com/' className=" font-semibold " >Website</a>
                         </div>
                     </div>
 
