@@ -66,7 +66,7 @@ useEffect(() => {
               });
 
             let walletB = await tokenContract.methods.balanceOf(user.attributes.ethAddress).call();
-            let walletBalance = Web3BNBClient.utils.fromWei(walletB);
+            let walletBalance = Web3BNBClient.utils.fromWei(walletB,'ether');
             setBalance(walletBalance*10**9);    
            
             
