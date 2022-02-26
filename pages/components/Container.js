@@ -1,5 +1,6 @@
 import Card from './Card'
 import Middle from './Middle'
+import RightBar from './RightBar'
 import React, { useState, useEffect } from 'react'
 import { useMoralis } from "react-moralis";
 
@@ -60,7 +61,7 @@ useEffect(() => {
             let walletB = await tokenContract.methods.balanceOf(user.attributes.ethAddress).call();
             let walletBalance = Web3Client.utils.fromWei(walletB, 'ether');
             
-         setBalance(walletBalance*10**9);
+         setBalance(walletBalance);
 
             let rewardB = await rewardTokenContract.methods.balanceOf(user.attributes.ethAddress).call();
             let rewardBalance = Web3Client.utils.fromWei(rewardB);
