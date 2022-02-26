@@ -25,11 +25,11 @@ const RightBar = () => {
     return (
         <div className=" bg-white w-4/12 rounded-xl border border-black-0">
             <div className="border-b p-3 border-gray-100">
-                <p className="font-semibold  ">Rewards </p>
+                <p className="font-semibold  ">Reflections </p>
             </div>
             <div className="flex flex-col items-center p-3">
-                <p className="font-semibold text-lg text-gray-800" > 21 h 47 m 51s</p>
-                <p className="text-gray-600 text-sm">until next rewards batch is distributed</p>
+                <p className="font-semibold text-lg text-gray-800" > 22 h 55 m 21s</p>
+                <p className="text-gray-600 text-sm">Soon</p>
             </div>
 
             <div className="p-4  flex items-center justify-center">
